@@ -1,0 +1,28 @@
+class student:
+
+    def __init__(self, first_name, last_name, student_id):
+
+           self.first_name = first_name
+           self.last_name = last_name
+           self.student_id = student_id
+
+
+    def getBalance(self):
+         return 200
+    def getfullname(self):
+        return self.first_name + " " + self.last_name
+
+
+class Cestarcollege:
+
+    def __init__(self, address, manager):
+         self.address = address
+         self.manager = manager
+
+student1 = student("adam", "jane", "1234")
+student2 = student("steven", "smith", "1235")
+student3 = student("david", "warner", "1236")
+lambtoncollege = Cestarcollege("TORONTO", "ROY")
+
+print(student2.first_name)
+print(student1.getfullname())
