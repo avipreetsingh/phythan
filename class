@@ -26,3 +26,25 @@ lambtoncollege = Cestarcollege("TORONTO", "ROY")
 
 print(student2.first_name)
 print(student1.getfullname())
+
+*****************************************
+class Circle:
+
+    def __init__(self, radius):
+        self.radius = radius
+
+
+
+
+    def __int__(self, newradius):
+        self.radius = newradius
+
+    def getarea(self):
+        return 3.14 * self.radius ** 2
+
+    def getperimeter(self):
+        return 2 * 3.14 * self.radius
+
+Circle1200 = Circle(7)
+print(Circle1200.getarea())
+print(Circle1200.getperimeter())
