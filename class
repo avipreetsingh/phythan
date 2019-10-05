@@ -91,3 +91,48 @@ w = ChordlessPhone("Panasonic")
 
 w.hangUp()
 w.memorizeNumber("6572456543")
+
+*********************************
+
+class OldCricket:
+
+    def __init__(self, sport):
+        self.sport = sport
+
+    def getsport(self):
+        return self.sport
+
+    def Oneformat(self):
+        print("Only test cricket was played....")
+
+    def Broadcast(self):
+        print("only avaliable at stadium or at radio station less people interacted with cricket")
+
+    def Physicalfitness(self):
+        print("players did not have fitness knowledge as much")
+
+class TodayCricket(OldCricket):
+
+   def __init__(self, brand):
+      self.brand = brand
+
+   def Moreformats(self):
+       print("There are ODI match, T20 match, Test match and many cricket leagues")
+
+   def Morepeopleinteraction(self, number):
+       print("Large number of people see cricket match on their TV's, Smartphones etc")
+
+   def Healthyplayers(self):
+       print("Players make their schelude and follow strictly the diet and increase hard work")
+
+
+
+
+
+w = TodayCricket("ashes")
+w.Oneformat()
+w.Moreformats()
+
+w.Physicalfitness()
+w.Healthyplayers()
+
