@@ -136,3 +136,26 @@ w.Moreformats()
 w.Physicalfitness()
 w.Healthyplayers()
 
+
+**********List****************
+myList = [1, 9, 2, 17, 8]
+
+
+
+
+myList.append(18)
+print(myList)
+
+myList.insert(4,100)
+
+print(myList)
+myList.remove(17)
+print(myList)
+myList.pop(0)
+print(myList)
+myList.pop(2)
+print(myList)
+myList.reverse()
+print (myList)
+
+
